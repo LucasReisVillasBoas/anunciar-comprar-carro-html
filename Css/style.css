@@ -1,0 +1,435 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap);
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*########## HEADER/TOPO ##########*/
+
+.topo{
+    background-color: black;
+    width: 100%;
+    height: 190px;/*COLOCAR HEIGHT AUTO DEPOIS QUE AS IMAGENS ESTIVEREM FORMATADAS NO TAMANHO IDEAL*/
+    border-bottom: 3px solid #b6a261;
+    border-radius: 0px 0px 15px 15px;
+}
+.topo #logo_topo{
+    width: 300px;
+    margin-left: 10%;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+    font-family: 'Poppins';
+}
+
+/*##########  FORMATAR MENU  ########## */
+
+#menu{
+    float: right;
+    margin-top: 3.6em;
+    margin-right: 130px;
+}
+#menu ul{
+
+    padding:0px;
+    margin:5px;
+    list-style:none;
+
+}
+#menu ul li{ 
+    display: inline;
+}
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#363636;
+    border-radius: 3px;
+    color: #b6a261;
+    border-bottom:3px solid #b39945;
+    transition-duration: 1s;
+}
+
+/*########## CONTEUDO ##########*/
+.produtos_carro{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 4px;
+    border: 2px solid rgb(255, 245, 199);
+    display: flex;
+    background-color: rgba(19, 19, 19, 0.651);
+}
+.produtos_carro img{
+    width: 300px;
+    height: 300px;
+    left: 30px;
+}
+dl{
+    width: 250px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 7px;
+    box-shadow: 0 0 4px rgba(226, 226, 226, 0.411);
+}
+dt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: darkgoldenrod;
+    padding-left: 20px;
+}
+dd{
+    font-size: 1rem;
+    padding-left: 50px;
+}
+
+.titulos_carro{
+    text-align: center;
+    margin: auto;
+    padding: 4px;
+    font-size: 21px;
+
+}
+.descricao p{
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: rgb(192, 192, 192);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo_conteudo{
+    text-align: center;
+    font-size: 35px;
+}
+.produtos{
+    height: 320px;
+    width: auto;
+    margin: 2rem;
+    border-radius: 3px;
+    padding: 2px;
+    border: 2px solid rgb(255, 253, 245);
+}
+.produtos img{
+    width: 250px;
+    height: 200px;
+}
+.produtos:hover{
+    border-color: rgb(0, 0, 0);
+    background-color: #ffd90027;
+    transition: 0.4s;
+}
+.produtos a:hover{
+    border-color: rgb(0, 0, 0);
+    color: #ecc900b9;
+    transition: 0.4s;
+}
+#section_produtos{
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_produto{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.info_produto h3{
+    padding-left: 5px;
+    color: #ffffff;
+}
+.info_produto h4{
+    color: #d6d6d671;
+}
+.info_produto a{
+    color: rgb(253, 243, 155);
+    text-decoration: none;
+}
+
+
+
+.conteudo{
+    width: 75%;
+    float: left;
+    color:white;
+}
+.conteudo_equipe{
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+td:hover{
+    color: darkgoldenrod;
+    transition: 0.5s;
+}
+.conteudo_secundario{
+    width: 15%;
+    margin: 40px 0;
+    float:left;
+}
+aside img{
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+/*########## HEADER/TOPO ##########*/
+
+.img_desenvolvedor{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+.sectiondesenvolvedores{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.desenvolvedor{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+td{
+    border: 1px solid white;
+    padding: 5px;
+}
+.conteudo h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topo-cadastro img, .topo-login img, .topo-anuncio img{
+    width: 190px;
+}
+.topo-cadastro div, .topo-login div, .topo-anuncio div{
+    width: 190px;
+    margin: auto; 
+}
+.topo-cadastro, .topo-login, .topo-anuncio{
+    background-color: rgb(0, 0, 0);
+    height: 110px;
+    box-shadow: 0 0 6px rgb(0, 0, 0);
+}
+.social{
+    display: flex;
+    align-content: center;
+}
+.social img{
+    width: 40px;
+    border-radius: 50%;
+}
+.social div{
+    margin: 10px 1rem;
+}
+.container-cadastro, .container-login, .container-anuncio{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.container-cadastro form, .container-login form{
+    margin-top: 1rem;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 460px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 30px 4%;
+}
+.container-anuncio form{
+    margin-top: 1rem;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 560px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 30px 4%;
+}
+.caixa-entrada .campo{
+    position: relative;
+}
+
+.caixa-entrada .campo label{
+    color: rgb(192, 192, 192);
+    font-size: 1.1rem;
+    position: absolute;
+    bottom: 9px;
+    left: 6px;
+    cursor: text;
+    transition: all 0.3s ease-in-out;
+}
+
+.caixa-entrada .campo input{
+    background-color: rgb(77, 77, 77);
+    padding: 0 0.5rem;
+    outline: none;
+    color: rgb(192, 192, 192);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: all 0.8s ease-in-out;
+}
+
+
+input[type='file']{
+    display: none
+}
+
+.campo-foto label{
+    background-color: #a19f00a9;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px 20px
+}
+
+
+textarea{
+    width: 400px;
+    height: 220px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: monospace;
+    border-radius: 10px;
+    border: 0;
+    border-bottom: 3px solid rgb(0,0,0);
+    transition: 0.5s;
+    resize: none;
+}
+textarea:focus{
+    border-bottom: 2px solid #d6b600;
+}
+.bloco-form{
+    display: flex;
+    position: relative;
+}
+.parte-um{
+    float: left;
+    margin-top: 30px;
+}
+.parte-dois{
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+
+.container-cadastro .caixa-entrada, .container-anuncio .caixa-entrada{
+    margin-top: 1.4rem;
+}
+.container-login .caixa-entrada{
+    margin-top: 2rem;
+}
+.caixa-entrada input:focus,
+.caixa-entrada input:valid{
+    border-bottom: 2px solid #d6b600;
+}
+.caixa-entrada input:focus ~ label,
+.caixa-entrada input:valid ~ label{
+    transform: translateY(-35px);
+    font-size: 0.8rem;
+}
+.caixa-submit input{
+    width: 190px;
+    height: 40px;
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #bea308;
+    color: #796503;
+    font-weight: 700;
+    box-shadow: rgba(93, 87, 50, 0.425) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.548) 0px 18px 36px -18px inset;
+    transition: all .4s ease-in-out;
+}
+.creat, .enter-login{
+    margin-top: 2rem;
+}
+.container-login .caixa-submit input{
+    margin-bottom: 2rem;
+}
+.caixa-submit input:hover{
+    background-color: #d6b600;
+    color: #302900;
+    box-shadow: rgba(0, 0, 0, 0.637) 0px 15px 25px, rgba(0, 0, 0, 0.582) 0px 5px 10px;
+} 
+
+.container-cadastro .ou{
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.ou span{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.548);
+    position: relative;
+}
+.ou span::before,
+.ou span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 200px;
+    bottom: 50%;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+.ou span::after{
+    left: 50px;
+}
